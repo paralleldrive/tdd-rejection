@@ -1,8 +1,6 @@
 # Rejection
 
-A student project for [Learn JavaScript with Eric Elliott](https://ericelliottjs.com).
-
-Want to work as a team?
+A student project for [TDD Day](https://tddday.com).
 
 You gotta lose to win.
 
