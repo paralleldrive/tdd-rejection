@@ -1,0 +1,27 @@
+{
+  "name": "rejection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test babel-node ./src/index-test.js",
+    "watch": "watch 'npm run -s test | tap-nirvana' src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@babel/node": "7.4.5",
+    "babel-eslint": "10.0.1",
+    "babel-plugin-styled-components": "1.10.0",
+    "riteway": "6.0.3",
+    "tap-nirvana": "1.1.0",
+    "watch": "1.0.2"
+  },
+  "dependencies": {
+    "next": "8.1.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  }
+}
