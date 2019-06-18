@@ -13,7 +13,7 @@
   "devDependencies": {
     "@babel/core": "7.4.5",
     "@babel/node": "7.4.5",
-    "babel-eslint": "10.0.1",
+    "babel-eslint": "10.0.2",
     "babel-plugin-styled-components": "1.10.1",
     "riteway": "6.0.3",
     "tap-nirvana": "1.1.0",
