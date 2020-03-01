@@ -4,24 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test babel-node ./src/index-test.js",
-    "watch": "watch 'npm run -s test | tap-nirvana' src"
+    "test": "# NODE_ENV=test babel-node ./src/index-test.js",
+    "watch": "watch 'npm run -s test | tap-nirvana' src",
+    "update": "updtr"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "7.4.5",
-    "@babel/node": "7.4.5",
-    "babel-eslint": "10.0.1",
-    "babel-plugin-styled-components": "1.10.1",
-    "riteway": "6.1.0",
+    "@babel/core": "^7.8.6",
+    "@babel/node": "^7.8.4",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-styled-components": "^1.10.7",
+    "riteway": "^6.1.1",
     "tap-nirvana": "1.1.0",
+    "updtr": "^3.1.0",
     "watch": "1.0.2"
   },
   "dependencies": {
-    "next": "8.1.0",
-    "react": "16.8.6",
-    "react-dom": "16.8.6"
+    "next": "^9.2.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
   }
 }
