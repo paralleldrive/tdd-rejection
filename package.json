@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "# NODE_ENV=test babel-node ./src/index-test.js",
+    "test": "NODE_ENV=test babel-node ./src/index-test.js",
     "watch": "watch 'npm run -s test | tap-nirvana' src",
     "update": "updtr"
   },
